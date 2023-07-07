@@ -1,19 +1,90 @@
-body {
-    background-color: black;
-}
+@media screen and (max-width: 400px){
 
-h1, summary, p, a {
-    color: white;
-}
+    
+    body {
+        background: #eee;
+        
+        
+    }
 
-img {
-    width: 10rem;
-    height: 30%;
-    border-radius: 50rem;
-    margin-top: 2rem;
-}
+    img {
+        width: 20%;
+        height: 20%;
+        border-radius: 50%;
+        margin-top: .8rem;
+        margin-left: .5rem;
+    }
 
-.menu_navbar{
-    display: flex;   
-    justify-content: space-evenly;
+    h1 {
+        font-size: 1.2rem;
+        
+    }
+
+    a {
+       
+        text-decoration: none;
+    }
+
+    
+    
+    ul {
+        display: flex;
+        justify-content: space-between;
+        margin-right: 3rem;
+        margin-left: -2rem;
+    }
+
+    li {
+        list-style: none;
+    }
+
+    .header-title {
+        text-align: center;
+    }
+
+    #quem_sou {
+        text-align: center;
+    }
+
+    #quem_sou:hover {
+        color: blue;
+    }
+
+    #projects {
+        text-align: center;
+        word-spacing: 2rem;
+    }
+    
+    #projects:hover{
+        color: blue;
+    }
+
+    fieldset {
+        text-align: center;
+    }
+    button {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        font-size: .9rem;
+        background-color: blue;
+        color:white;
+        width: 10.5rem;
+        margin-left: 2.6rem;
+        margin-top: .5rem;
+        border-radius: 3rem;
+        cursor: pointer;
+    }
+
+    button:hover {
+        background: yellow;
+        color: black;
+    }
+
+    aside {
+        text-align: center;
+        margin-top: .7rem;
+    }
+    
 }

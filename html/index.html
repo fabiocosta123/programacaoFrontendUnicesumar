@@ -6,25 +6,73 @@
     <link rel="stylesheet" href="../style/style.css">
     <title>Mapa</title>
 </head>
+
 <body>
-    <header class="navbar">
+
+    <header class="header">
+
+        
         <nav class="menu_navbar">
-            <div class="img_name">
-                <img src="../img/Fábio.jpg" alt="Foto Perfil">
-                <h1>Fábio Costa Silva</h1>
-            </div>
-            
-            <details>
-                <summary>Descrição</summary>
-                <p>Aluno de Sistemas da internet na Unicesumar</p>
-            </details>
+            <menu>
+                <ul>
+                    <li><a href="#quem_sou">Quem sou</a></li>
+                    <li><a href="#projects">Projetos</a></li>
+                    <li> <a href="#cadastro">Fale Comigo</a></li>
+                </ul>
+            </menu>            
         </nav>
+
+        <div class="header-title">
+            <img src="../img/fabio-redes-sociais.jpg" alt="Foto Perfil">
+            <h1>Fábio Costa Silva</h1>
+            <h4>Desenvolvedor Web</h4>           
+        </div>
+
+
     </header>
-    <main>
+
+    <main id="quem_sou">
+       <p>Casado, pai de 3 filhos, apaixonado pela familia e por tecnologia, auto-didata nas linguagens de programação. </p>
        
-        <section>
-            <a href="https://www.linkedin.com/in/fabiocosta123/" target="_blank">Linkedin</a>
-        </section>
+
     </main>
+
+    <section id="projects">
+        <h2>Projetos</h2>
+        <details><summary>Genius</summary>
+            <a href="https://fabiocosta123.github.io/jogo-genius/" target="_blank">Genius</a>
+        </details>
+
+      <details>
+        <summary>
+            MagBank
+        </summary>
+        <a href="https://magbank-imagine.vercel.app/" target="_blank">MagBank</a>
+      </details>
+    </section>
+
+
+    <section>
+        <fieldset>
+            <form id="cadastro">
+                <h3>Informe seu contato</h3>
+                <input type="text" placeholder="Nome">
+                <input type="number" placeholder="Telefone">
+                <button>Enviar</button>
+            </form>
+        </fieldset>
+    </section>
+
+    
+    <aside>
+        <details>
+            <summary>Rede Social</summary>
+            <a href="https://www.linkedin.com/in/fabiocosta123/" target="_blank">Linkedin</a>
+        </details>
+    </aside>
+
+    <footer>
+        <small>Fábio Costa Silva - Desenvolvedor Web</small>
+    </footer>
 </body>
 </html>
