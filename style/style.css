@@ -1,4 +1,4 @@
-@media screen and (max-width: 400px){
+@media screen and (max-width: 550px) and (min-width: 300px){
 
     
     body {
@@ -67,15 +67,12 @@
         margin: .2rem;
     }
     button {
-        display: flex;
         justify-content: center;
-        align-items: center;
         text-align: center;
         font-size: .9rem;
         background-color: blue;
         color:white;
-        width: 10.5rem;
-        margin-left: 2.6rem;
+        width: 10.5rem;        
         margin-top: .5rem;
         border-radius: 3rem;
         cursor: pointer;
@@ -93,23 +90,135 @@
 
     aside:hover {
         color: blue;
+        margin-top: 1.5rem;
     }
 
     footer {
         text-align: center;
+        margin-top: 1.5rem;
     }
 
     footer:hover {
         color:blue;
+        
     }
     
 }
 
-body {
-    background: #eee;
+
+@media screen and (min-width: 600px) and (max-width: 900px)  {
+    body {
+        background: #7B68EE;
+        color: white;
+        
+        
+    }
+    
+    img {
+        width: 20%;
+        height: 20%;
+        border-radius: 50%;
+        margin-top: .8rem;
+        margin-left: .5rem;
+    }
+    
+    h1 {
+        font-size: 1.2rem;
+        
+    }
+    
+    a {
+        color: white;
+        text-decoration: none;
+    }
+
+    a:hover{
+        color: blue;
+    }
     
     
+    
+    ul {
+        display: flex;
+        justify-content: space-between;
+        margin-right: 1rem;
+        margin-left: -2rem;
+    }
+    
+    li {
+        list-style: none;
+    }
+    
+    .header-title {
+        text-align: center;
+    }
+    
+    #quem_sou {
+        text-align: center;
+    }
+    
+    #quem_sou:hover {
+        color: blue;
+    }
+    
+    #projects {
+        text-align: center;
+        word-spacing: 2rem;
+    }
+    
+    #projects:hover{
+        color: blue;
+    }
+    
+    fieldset {
+        text-align: center;
+        max-width: 60%;
+    }
+    
+    input {
+        margin: .2rem;
+    }
+
+    .cadastro {
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    button {
+        font-size: .9rem;
+        background-color: blue;
+        color:white;
+        width: 10.5rem;       
+        margin-top: .5rem;
+        border-radius: 3rem;
+        cursor: pointer;
+    }
+    
+    button:hover {
+        background: yellow;
+        color: black;
+    }
+    
+    aside {
+        text-align: center;
+        margin-top: .7rem;
+    }
+    
+    aside:hover {
+        color: blue;
+    }
+    
+    footer {
+        text-align: center;
+    }
+    
+    footer:hover {
+        color:blue;
+    }
 }
+
+
+
 
 img {
     width: 20%;
@@ -125,15 +234,19 @@ h1 {
 }
 
 a {
-   
     text-decoration: none;
+}
+
+a:hover{
+    color: yellowgreen;
 }
 
 
 
 ul {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+    font-size: 1.5rem;
     margin-right: 1rem;
     margin-left: -2rem;
 }
@@ -164,7 +277,6 @@ li {
 }
 
 fieldset {
-    
     text-align: center;
     max-width: 60%;
 }
@@ -172,16 +284,17 @@ fieldset {
 input {
     margin: .2rem;
 }
-button {
+
+.cadastro {
     display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
+    justify-content: space-evenly;
+}
+
+button {
     font-size: .9rem;
     background-color: blue;
     color:white;
-    width: 10.5rem;
-    margin-left: 2.6rem;
+    width: 10.5rem;       
     margin-top: .5rem;
     border-radius: 3rem;
     cursor: pointer;
@@ -203,6 +316,7 @@ aside:hover {
 
 footer {
     text-align: center;
+    margin-top: 1.2rem;
 }
 
 footer:hover {
