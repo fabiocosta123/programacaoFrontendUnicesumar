@@ -26,4 +26,10 @@ Comecei desenvolvendo para mobile first e depois fui adaptando para telas maiore
 Para a simulação de envios de dados usei o DOM, 
 Para a const a (está com um escutador de evento, que ao ser clicado, mostra na tela um paragrafo com as informações 'quem sou')
 e para o button o escutador de enventos está para exibir um alerta na tela para o usuário.
+
+link para projeto
+https://fabiocosta123.github.io/programacaoFrontendUnicesumar/
+
+Repositorio do github: (deixarei publico para correção), após voltarei ao privado;
+https://github.com/fabiocosta123/programacaoFrontendUnicesumar
 */
